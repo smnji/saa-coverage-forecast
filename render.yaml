@@ -2,7 +2,7 @@ services:
   - type: web
     runtime: static
     name: saa-coverage-forecast
-    buildCommand: corepack enable && pnpm install --frozen-lockfile=false && pnpm build
+    buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     pullRequestPreviewsEnabled: false
     routes:
