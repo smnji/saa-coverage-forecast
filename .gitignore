@@ -3,3 +3,7 @@ dist
 *.local
 .DS_Store
 .vite
+
+pnpm-lock.yaml
+pnpm-workspace.yaml
+tsconfig.tsbuildinfo
